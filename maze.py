@@ -1,5 +1,12 @@
 """
-
+入力例
+5 5
+2 2 0 0
+WWWWW
+BBBBW
+WWWBW
+WBBBW
+WWWWW
 """
 
 from queue import Queue
