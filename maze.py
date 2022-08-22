@@ -1,17 +1,5 @@
 """
-N, M = map(int, input().split())
-bags = [x for x in range(1, N+1)]
-#print(bags)
-now = 0
-for _ in range(M):
-    d = int(input())
-    if d in bags:
-        idx = bags.index(d) #入れるインデックス
-        bags[idx] = now
-    now = d #インデックスから出したCDを聞く
 
-for d in bags:
-    print(d)
 """
 
 from queue import Queue
